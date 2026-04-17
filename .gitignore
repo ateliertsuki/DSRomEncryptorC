@@ -1,0 +1,86 @@
+# ============================================================
+# Build directories
+# ============================================================
+build/
+build-*/
+obj/
+out/
+
+# ============================================================
+# Compiled objects and libraries
+# ============================================================
+*.o
+*.os
+*.lo
+*.a
+*.la
+*.so
+*.so.*
+*.slo
+*.dylib
+
+# ============================================================
+# Executables
+# ============================================================
+*.exe
+*.out
+*.app
+
+# ============================================================
+# Autotools / configure artifacts
+# ============================================================
+autom4te.cache/
+config.log
+config.status
+config.cache
+config.h
+config.h.in~
+config.make
+configure~
+libtool
+stamp-h1
+aclocal.m4
+.deps/
+.libs/
+
+# ============================================================
+# Test artifacts
+# ============================================================
+*.test-result
+*.test
+*.log
+*.trs
+tst-*.out
+*-test
+*-test.out
+
+# ============================================================
+# Editor / IDE
+# ============================================================
+*~
+*.swp
+*.swo
+tags
+TAGS
+cscope.*
+.vscode/
+.idea/
+compile_commands.json
+
+# ============================================================
+# macOS files
+# ============================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+.fseventsd
+.DocumentRevisions-V100
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+.apdisk
+._*
